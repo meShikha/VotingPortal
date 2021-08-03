@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Voting Portal | Make your vote count.</title>
+</head>
+
+<body>
+    
+    <section class="banner">
+        <header>
+
+            <!-- Logo of the page -->
+
+            <a href="#" class="logo">VotingPortal</a>
+            <div class="toggle" onclick="toggle();"></div>
+        </header>
+
+        <div class="content">
+
+            <!-- text of the page -->
+            <div class="contentBx">
+                <h2>Make</h2><br>
+                <h2>Your Deccesion</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum tempora corrupti possimus illum, nemo
+                    eos beatae quisquam aspernatur officia? Eius, ipsum accusantium. Obcaecati maxime laboriosam
+                    asperiores tempora, porro vero id. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Praesentium, eum.</p>
+                <a href="/log.html">Register now</a>
+            </div>
+            <!-- image related to the voting portal -->
+            <div class="imageBx">
+                <img src="vote.jpg" style="height: 650px; width: 1100px;" alt="">
+            </div>
+        </div>
+        <br>
+
+        <!-- list of contacts  -->
+        <ul class="list">
+            <li><a href="#"><img src="facebook.png" alt="fb"></a></li>
+            <li><a href="#"><img src="twitter.png" alt="fb"></a></li>
+            <li><a href="#"><img src="instagram.png" alt="fb"></a></li>
+        </ul>
+
+        <!-- components of navbar (not present in navbar or header..just a list) -->
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portal</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul>
+
+    </section>
+
+    
+    <script>
+        // javascript for home page
+        
+        function toggle() {
+            const toggle = document.querySelector('.toggle');
+            const banner = document.querySelector('.banner');
+            toggle.classList.toggle('active');
+            banner.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
